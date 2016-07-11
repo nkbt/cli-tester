@@ -14,7 +14,7 @@ test('Successful run', t =>
 test('CLI throws', t =>
   tester(require.resolve('./cli-err'))
     .then(({code, stdout, stderr}) => {
-      t.equal(code, 1, 'should exit with code 1');
+      t.notEqual(code, 0, 'should exit with non-zero code');
       t.equal(stdout, '', 'should not have any output');
       t.ok(stderr.match('OMG!'), 'should capture OMG! error');
     }));
