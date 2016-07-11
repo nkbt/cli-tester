@@ -12,7 +12,7 @@
 
 Lean promisified wrapper to test NodeJS CLI scripts
 
-Plays nicely with [https://npm.im/blue-tape](blue-tape)
+Plays nicely with [blue-tape](https://npm.im/blue-tape)
 
 ## Installation
 
