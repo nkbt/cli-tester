@@ -51,6 +51,8 @@ test('CLI throws', t =>
 const tester = require('cli-tester/es5');
 ```
 
+ES6 Promises will be polyfilled with `es6-promise` if necessary
+
 ## API
 
 ```js
