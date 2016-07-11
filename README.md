@@ -1,4 +1,13 @@
-# cli-tester
+# cli-tester [![npm](https://img.shields.io/npm/v/cli-tester.svg?style=flat-square)](https://www.npmjs.com/package/cli-tester)
+            
+[![Discord](https://img.shields.io/badge/chat-discord-blue.svg?style=flat-square)](https://discord.gg/013tGW1IMcW6Vd1o7)
+
+[![CircleCI](https://img.shields.io/circleci/project/nkbt/cli-tester.svg?style=flat-square&label=nix-build)](https://circleci.com/gh/nkbt/cli-tester)
+[![AppVeyor](https://img.shields.io/appveyor/ci/nkbt/cli-tester.svg?style=flat-square&label=win-build)](https://ci.appveyor.com/project/nkbt/cli-tester)
+[![Coverage](https://img.shields.io/coveralls/nkbt/cli-tester.svg?style=flat-square)](https://codecov.io/github/nkbt/cli-tester?branch=master)
+[![Dependencies](https://img.shields.io/david/nkbt/cli-tester.svg?style=flat-square)](https://david-dm.org/nkbt/cli-tester)
+[![Dev Dependencies](https://img.shields.io/david/dev/nkbt/cli-tester.svg?style=flat-square)](https://david-dm.org/nkbt/cli-tester#info=devDependencies)
+
 
 Lean promisified wrapper to test NodeJS CLI scripts
 
