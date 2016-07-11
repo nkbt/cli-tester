@@ -6,6 +6,7 @@
   "scripts": {
     "eslint": "eslint .",
     "test": "node test",
+    "prebuild": "mkdirp es5",
     "build": "babel index.js --out-file es5/index.js",
     "build:test": "babel test --out-dir es5/test",
     "test:es5": "node es5/test",
@@ -41,6 +42,7 @@
     "eslint-plugin-import": "1.10.2",
     "istanbul": "0.4.4",
     "minicat": "1.0.0",
+    "mkdirp": "0.5.1",
     "tap-xunit": "1.4.0"
   },
   "files": [
