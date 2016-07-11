@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: v6.3.0
+
+test:
+  override:
+    - npm run -s eslint -- --format tap > ${CIRCLE_ARTIFACTS}/eslint.log
+    - npm run -s test > ${CIRCLE_ARTIFACTS}/test.log
+    - npm run cov -s
+  post:
+    - cat ${CIRCLE_ARTIFACTS}/eslint.log | npm run -s tap-xunit > ${CIRCLE_TEST_REPORTS}/eslint.xml
+    - cat ${CIRCLE_ARTIFACTS}/test.log | npm run -s tap-xunit > ${CIRCLE_TEST_REPORTS}/test.xml
+    - cp -R coverage ${CIRCLE_ARTIFACTS}/coverage
