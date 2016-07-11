@@ -10,5 +10,5 @@ test:
   post:
     - cat ${CIRCLE_ARTIFACTS}/eslint.log | npm run -s tap-xunit > ${CIRCLE_TEST_REPORTS}/eslint.xml
     - cat ${CIRCLE_ARTIFACTS}/test.log | npm run -s tap-xunit > ${CIRCLE_TEST_REPORTS}/test.xml
-    - mv -R coverage ${CIRCLE_ARTIFACTS}/coverage
+    - mv coverage ${CIRCLE_ARTIFACTS}/coverage
     - cat ${CIRCLE_ARTIFACTS}/coverage/lcov.info | $(npm bin)/coveralls
