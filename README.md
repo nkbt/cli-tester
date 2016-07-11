@@ -4,6 +4,7 @@
 
 [![CircleCI](https://img.shields.io/circleci/project/nkbt/cli-tester.svg?style=flat-square&label=nix-build)](https://circleci.com/gh/nkbt/cli-tester)
 [![AppVeyor](https://img.shields.io/appveyor/ci/nkbt/cli-tester.svg?style=flat-square&label=win-build)](https://ci.appveyor.com/project/nkbt/cli-tester)
+[![Travis](https://img.shields.io/travis/nkbt/cli-tester.svg?style=flat-square&label=matrix-build)](https://travis-ci.org/nkbt/cli-tester)
 [![Coverage](https://img.shields.io/coveralls/nkbt/cli-tester.svg?style=flat-square)](https://codecov.io/github/nkbt/cli-tester?branch=master)
 [![Dependencies](https://img.shields.io/david/nkbt/cli-tester.svg?style=flat-square)](https://david-dm.org/nkbt/cli-tester)
 [![Dev Dependencies](https://img.shields.io/david/dev/nkbt/cli-tester.svg?style=flat-square)](https://david-dm.org/nkbt/cli-tester#info=devDependencies)
