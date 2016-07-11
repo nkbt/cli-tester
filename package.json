@@ -7,7 +7,9 @@
     "eslint": "eslint .",
     "test": "node test",
     "cov": "cross-env NODE_ENV=test istanbul cover --report text --report html --report lcov --dir coverage test",
-    "tap-xunit": "tap-xunit"
+    "tap-xunit": "tap-xunit",
+    "precoveralls": "npm run cov -s",
+    "coveralls": "minicat coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -26,11 +28,13 @@
   "homepage": "https://github.com/nkbt/cli-tester#readme",
   "devDependencies": {
     "blue-tape": "0.2.0",
+    "coveralls": "2.11.9",
     "cross-env": "1.0.8",
     "eslint": "3.0.1",
     "eslint-config-airbnb-base": "4.0.0",
     "eslint-plugin-import": "1.10.2",
     "istanbul": "0.4.4",
+    "minicat": "1.0.0",
     "tap-xunit": "1.4.0"
   },
   "files": [
