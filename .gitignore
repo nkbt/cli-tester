@@ -14,5 +14,6 @@ pids
 /node_modules/
 
 /coverage/
+/es5
 /.coveralls.yml
 /.eslintcache

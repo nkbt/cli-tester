@@ -23,7 +23,7 @@ npm install --save-dev cli-tester
 
 ```js
 const test = require('blue-tape');
-const cliTest = require('cli-tester');
+const tester = require('cli-tester');
 
 
 test('Successful run', t =>
@@ -43,6 +43,12 @@ test('CLI throws', t =>
       t.ok(stderr.match('some error from CLI'));
     }));
 
+```
+
+## Node 5 and older
+
+```js
+const tester = require('cli-tester/es5');
 ```
 
 ## API
