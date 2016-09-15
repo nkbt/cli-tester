@@ -36,7 +36,7 @@
     "babel-plugin-es6-promise": "1.0.0",
     "babel-preset-es2015": "6.9.0",
     "blue-tape": "1.0.0",
-    "coveralls": "2.11.9",
+    "coveralls": "2.11.13",
     "cross-env": "1.0.8",
     "eslint": "3.0.1",
     "eslint-config-airbnb-base": "4.0.0",
