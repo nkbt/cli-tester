@@ -40,7 +40,7 @@
     "cross-env": "1.0.8",
     "eslint": "3.5.0",
     "eslint-config-airbnb-base": "4.0.0",
-    "eslint-plugin-import": "1.10.2",
+    "eslint-plugin-import": "1.15.0",
     "istanbul": "0.4.4",
     "minicat": "1.0.0",
     "mkdirp": "0.5.1",
