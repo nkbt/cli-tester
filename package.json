@@ -4,7 +4,7 @@
   "description": "Lean promisified wrapper to test NodeJS CLI scripts",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint .",
+    "lint": "eslint .",
     "test": "node test",
     "prebuild": "mkdirp es5",
     "build": "babel index.js --out-file es5/index.js",
