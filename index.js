@@ -16,10 +16,10 @@ module.exports = (bin, env, ...args) =>
 
     const cp = fork(
       bin,
-      typeof(env) === 'string' ? [env].concat(args) : args,
+      typeof env === 'string' ? [env].concat(args) : args,
       {
         cwd: process.cwd(),
-        env: typeof(env) === 'string' ? {} : env,
+        env: typeof env === 'string' ? {} : env,
         silent: true,
       }
     );
