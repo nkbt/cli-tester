@@ -37,7 +37,7 @@
     "babel-preset-es2015": "6.14.0",
     "blue-tape": "1.0.0",
     "coveralls": "2.11.13",
-    "cross-env": "2.0.1",
+    "cross-env": "3.0.0",
     "eslint": "3.5.0",
     "eslint-config-airbnb-base": "7.1.0",
     "eslint-plugin-import": "1.15.0",
