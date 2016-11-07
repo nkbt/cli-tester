@@ -52,8 +52,6 @@ test('CLI throws', t =>
 const tester = require('cli-tester/es5');
 ```
 
-ES6 Promises will be polyfilled with `es6-promise` if necessary
-
 ## API
 
 ```js
@@ -93,7 +91,7 @@ tester(require.resolve('./cli'), {OMG: 'OMG!'},'--hello', 'world')
 
 ## Development and testing
 
-Currently is being developed and tested with the latest stable `Node 6` under `OSX` and `Windows`.
+Currently is being developed and tested with the latest stable `Node 7` under `OSX` and `Windows`.
 
 ```bash
 git clone git@github.com:nkbt/cli-tester.git
