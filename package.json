@@ -1,6 +1,6 @@
 {
   "name": "cli-tester",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Lean promisified wrapper to test NodeJS CLI scripts",
   "main": "index.js",
   "scripts": {
