@@ -4,7 +4,7 @@ const fork = require('child_process').fork;
 const payload = ({code, stdout, stderr}) => ({
   code,
   stdout: stdout.join('').trim(),
-  stderr: stderr.join('').trim(),
+  stderr: stderr.join('').trim()
 });
 
 
@@ -20,7 +20,7 @@ module.exports = (bin, env, ...args) =>
       {
         cwd: process.cwd(),
         env: typeof env === 'string' ? {} : env,
-        silent: true,
+        silent: true
       }
     );
 
