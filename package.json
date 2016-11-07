@@ -33,7 +33,6 @@
   "homepage": "https://github.com/nkbt/cli-tester#readme",
   "devDependencies": {
     "babel-cli": "6.18.0",
-    "babel-plugin-es6-promise": "1.0.0",
     "babel-preset-es2015": "6.18.0",
     "blue-tape": "1.0.0",
     "coveralls": "2.11.14",
@@ -45,9 +44,6 @@
     "minicat": "1.0.0",
     "mkdirp": "0.5.1",
     "tap-xunit": "1.4.0"
-  },
-  "optionalDependencies": {
-    "es6-promise": "^4.0.5"
   },
   "files": [
     "index.js",
