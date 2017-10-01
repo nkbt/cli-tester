@@ -1,4 +1,7 @@
-const fork = require('child_process').fork;
+'use strict';
+
+
+const {fork} = require('child_process');
 
 
 const payload = ({code, stdout, stderr}) => ({
